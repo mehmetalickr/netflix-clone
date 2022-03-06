@@ -16,6 +16,9 @@
 		477F0B5527D4EAE400A87189 /* NetflixCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F0B5427D4EAE400A87189 /* NetflixCloneUITests.swift */; };
 		477F0B5727D4EAE400A87189 /* NetflixCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F0B5627D4EAE400A87189 /* NetflixCloneUITestsLaunchTests.swift */; };
 		477F0B6527D4EC0800A87189 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F0B6427D4EC0800A87189 /* HomeViewController.swift */; };
+		47B74ACA27D4EEA200EF49B1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B74AC927D4EEA200EF49B1 /* SearchViewController.swift */; };
+		47B74ACC27D4EEB700EF49B1 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B74ACB27D4EEB700EF49B1 /* UpcomingViewController.swift */; };
+		47B74ACE27D4EEC100EF49B1 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B74ACD27D4EEC100EF49B1 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		477F0B5427D4EAE400A87189 /* NetflixCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixCloneUITests.swift; sourceTree = "<group>"; };
 		477F0B5627D4EAE400A87189 /* NetflixCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		477F0B6427D4EC0800A87189 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		47B74AC927D4EEA200EF49B1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		47B74ACB27D4EEB700EF49B1 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		47B74ACD27D4EEC100EF49B1 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		477F0B3227D4EAE000A87189 /* NetflixClone */ = {
 			isa = PBXGroup;
 			children = (
+				47B74AD427D4F15800EF49B1 /* Models */,
+				47B74ACF27D4F0F900EF49B1 /* Views */,
+				47B74AD327D4F14B00EF49B1 /* ViewModels */,
 				477F0B6327D4EBF800A87189 /* Controllers */,
 				477F0B3327D4EAE000A87189 /* AppDelegate.swift */,
 				477F0B3527D4EAE000A87189 /* SceneDelegate.swift */,
@@ -131,8 +140,32 @@
 			isa = PBXGroup;
 			children = (
 				477F0B6427D4EC0800A87189 /* HomeViewController.swift */,
+				47B74ACB27D4EEB700EF49B1 /* UpcomingViewController.swift */,
+				47B74AC927D4EEA200EF49B1 /* SearchViewController.swift */,
+				47B74ACD27D4EEC100EF49B1 /* DownloadsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		47B74ACF27D4F0F900EF49B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		47B74AD327D4F14B00EF49B1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		47B74AD427D4F15800EF49B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47B74ACC27D4EEB700EF49B1 /* UpcomingViewController.swift in Sources */,
+				47B74ACA27D4EEA200EF49B1 /* SearchViewController.swift in Sources */,
+				47B74ACE27D4EEC100EF49B1 /* DownloadsViewController.swift in Sources */,
 				477F0B3827D4EAE000A87189 /* MainTabBarViewController.swift in Sources */,
 				477F0B3427D4EAE000A87189 /* AppDelegate.swift in Sources */,
 				477F0B3627D4EAE000A87189 /* SceneDelegate.swift in Sources */,
